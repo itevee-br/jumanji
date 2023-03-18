@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumanji</title>
+    <link rel="stylesheet" href="base.css">
+    <script src="efeito.js"></script>
+</head>
+<body onclick="typeWriter()">
+    <div class="container">
+        <div class="box" id="demo">
+            <div id="linhaA"></div>
+            <br>
+            <div id="linhaB"></div>
+            <br>
+            <div id="linhaC">- - - toque na tela - - -</div>
+            <img src="selva.png" alt="..." id="selva">
+            <img src="tesouro.png" alt="..." id="tesouro">
+            <img src="armadilha.png" alt="..." id="armadilha">
+            <br>
+            <div id="linhaD"></div>
+            <br>
+            <div id="linhaE"></div>
+            <br>
+            <input type="text" name="valor" id="valor" placeholder="resposta toda em minusculo">
+            <input type="submit" value="enviar" onclick="capturar()" id="pergunta">
+        </div>
+    </div>
+</body>
+</html>

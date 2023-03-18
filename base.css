@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Gloock');
+
+body 
+{
+    background: url(wallpaper.jpg);
+    margin: 0px;
+}
+
+.container 
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box 
+{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: Gloock;
+}
+#selva
+{
+    display: none;
+    width: 80%;
+}
+#tesouro
+{
+    display: none;
+    width: 80%;
+}
+#armadilha
+{
+    display: none;
+    width: 80%;
+}
